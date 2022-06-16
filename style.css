@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+.section1 {
+  height: 350px;
+  width: 100%;
+  background-color: #424d83;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* top div left part  */
+.leftpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+h1 {
+  font-size: 30px;
+}
+.upperpara {
+  position: relative;
+  bottom: 14px;
+}
+
+.topbutton {
+  color: white;
+  border-radius: 4px;
+  height: 32px;
+  width: 100%;
+  max-width: 131px;
+  border: none;
+  background-color: #93a5ff;
+  cursor: pointer;
+}
+/* top right div  */
+.rightpart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageright {
+  width: 100%;
+  max-width: 500px;
+}
+/* bottom form div  */
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  align-items: center;
+  margin-top: 35px;
+  font-size: 22px;
+  position: relative;
+  top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.bottombutton {
+  color: white;
+  border-radius: 4px;
+  height: 27px;
+  border: none;
+  background-color: #93a5ff;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 170px;
+  margin-bottom: 25px;
+  font-family: "poppins";
+}
+.sendbutton {
+  display: flex;
+  justify-content: center;
+}
+.forminput {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(95, 93, 93);
+}
+input[type="text"],
+textarea::placeholder {
+  padding: 10px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+.forminput:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+textarea {
+  border-radius: 5px;
+  border: 1px solid rgb(95, 93, 93);
+  margin-top: 5px;
+  resize: none;
+}
+/* responsiveness */
+@media only screen and (max-width: 950px) {
+  h1 {
+    font-size: 22px;
+  }
+  .upperpara {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .topbutton {
+    max-width: 110px;
+    height: 28px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .upperpara {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .topbutton {
+    max-width: 90px;
+    height: 25px;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .upperpara {
+    font-size: 7px;
+    margin-top: 20px;
+  }
+  .topbutton {
+    max-width: 70px;
+    height: 23px;
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 675px) {
+  .section1 {
+    display: grid;
+
+    grid-template-columns: 1fr;
+  }
+  .imageright {
+    height: 200px;
+    display: flex;
+  }
+
+  input[type="text"],
+  textarea {
+    max-width: 350px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  input[type="text"],
+  textarea {
+    max-width: 350px;
+  }
+  .bottombutton {
+    max-width: 150px;
+  }
+}
+@media only screen And (max_width: 720px) {
+  .leftpart {
+    padding-left: 20px;
+  }
+}
+
+.bottompara {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  input[type="text"],
+  textarea {
+    max-width: 250px;
+  }
+  .bottombutton {
+    max-width: 100px;
+  }
+  .h1 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  input[type="text"],
+  textarea {
+    max-width: 220px;
+  }
+  .bottombutton {
+    max-width: 80px;
+  }
+}
